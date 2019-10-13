@@ -34,4 +34,12 @@ For multiple line comment, enclose the comment between /* and */
 /*this is 
   a multiple line 
   comment */
-
+// use for single line comment.
+/* 
+use for multline comment
+*/
+typedef is use for shorting the c++ code.
+ex- typedef long long ll
+used 
+ll x;
+cin>>x;
