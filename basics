@@ -43,3 +43,7 @@ ex- typedef long long ll
 used 
 ll x;
 cin>>x;
+note:scanf and printf function are 3 times faster than cin and cout.
+
+#include<bits/stdc++.h> contains all library used in c++.
+
