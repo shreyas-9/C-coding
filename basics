@@ -1,0 +1,45 @@
+Basic Concepts of C++
+
+In this section we will cover the basics of C++, it will include the syntax, variable, operators, loop types, pointers, references and information about other requirements of a C++ program. You will come across lot of terms that you have already studied in C language.
+Syntax and Structure of C++ program
+
+Here we will discuss one simple and basic C++ program to print "Hello this is C++" and its structure in parts with details and uses.
+
+First C++ program
+#include <iostream.h>
+using namespace std;
+int main()
+{
+    cout << "Hello this is C++"; 
+}
+Header files are included at the beginning just like in C program. Here iostream is a header file which 
+provides us with input & output streams.Header files contained predeclared function libraries, which can
+be used by users for their ease. 
+Using namespace std, tells the compiler to use standard namespace. Namespace collects identifiers used for class, object and variables.
+NameSpace can be used by two ways in a program, either by the use of using statement at the beginning, like we did in above mentioned
+program or by using name of namespace as prefix before the identifier with scope resolution (::) operator. 
+Example: std::cout << "A";
+ main(), is the function which holds the executing part of program its return type is int.
+
+cout <<, is used to print anything on screen, same as printf in C language. cin and cout are same as scanf and printf, only difference 
+is that you do not need to mention format specifiers like, %d for int etc, in cout & cin. 
+
+Comments in C++ Program
+For single line comments, use // before mentioning comment, like
+
+cout<<"single line";   // This is single line comment
+
+For multiple line comment, enclose the comment between /* and */
+
+/*this is 
+  a multiple line 
+  comment */
+// use for single line comment.
+/* 
+use for multline comment
+*/
+typedef is use for shorting the c++ code.
+ex- typedef long long ll
+used 
+ll x;
+cin>>x;
