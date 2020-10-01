@@ -29,6 +29,4 @@ For single line comments, use // before mentioning comment, like
 
 cout<<"single line";   // This is single line comment
 
-For multiple line comment, enclose the comment between /*
-  x=s.length(finding the length of string and array)
 
