@@ -29,9 +29,4 @@ For single line comments, use // before mentioning comment, like
 
 cout<<"single line";   // This is single line comment
 
-For multiple line comment, enclose the comment between /* and */
-
-/*this is 
-  a multiple line 
-  comment */
 
