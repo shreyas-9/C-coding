@@ -59,7 +59,7 @@ void solve(){
     // cout<<x+y<<nl;
 
     if(y>=0 && x>=0 &&y%3==0&x%3==0){
-        cout<<"YES\n";
+        cout<<"YES"<<endl;
     }else{
         cout<<"NO\n";
     }
